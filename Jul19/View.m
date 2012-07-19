@@ -7,6 +7,7 @@
 //
 
 #import "View.h"
+#import "ViewController.h"
 
 @implementation View
 
@@ -15,6 +16,10 @@
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
+        
+        
+        imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"forget.png"]];
+        [self addSubview:imageView];
     }
     return self;
 }

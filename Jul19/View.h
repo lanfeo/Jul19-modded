@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class ViewController;
 
-@interface View : UIView
+@interface View : UIView {
+    ViewController *viewController;
+    UIImageView *imageView;
+}
 
 @end
