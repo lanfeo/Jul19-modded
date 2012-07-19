@@ -24,6 +24,20 @@
     return self;
 }
 
+- (id) initWithFrame:(CGRect)frame controller:(ViewController *) c {
+	self = [super initWithFrame: frame];
+	if (self) {
+		// Initialization code
+		self.backgroundColor = [UIColor whiteColor];
+        imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"forget.png"]];
+        [self addSubview:imageView];
+	//	self.editable = NO;	//Don't pop up a keyboard.
+	//	self.font = [UIFont fontWithName: @"Courier" size: 14]; //monospace
+		viewController = c;
+	}
+	return self;
+}
+
 /*
 // Only override drawRect: if you perform custom drawing.
 // An empty implementation adversely affects performance during animation.
