@@ -12,7 +12,6 @@
 #import "NoteView.h"
 
 @implementation Jul19AppDelegate
-
 @synthesize window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -26,7 +25,6 @@
     // initialise tab controller
 	// UITabBarController *tabBarController = [[UITabBarController alloc] init];
     a = [NSArray arrayWithObjects:
-                                        
                                         [[ViewController alloc]
                                         initWithTitle:@"Build superpower"
                                          image: [UIImage imageNamed: @"163-glasses-1.png"]

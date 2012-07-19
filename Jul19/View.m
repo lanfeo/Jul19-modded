@@ -18,7 +18,7 @@
         // Initialization code
         
         
-        imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"forget.png"]];
+        imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"forget2.png"]];
         [self addSubview:imageView];
     }
     return self;
@@ -29,7 +29,7 @@
 	if (self) {
 		// Initialization code
 		self.backgroundColor = [UIColor whiteColor];
-        imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"forget.png"]];
+        imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"forget2.png"]];
         [self addSubview:imageView];
 	//	self.editable = NO;	//Don't pop up a keyboard.
 	//	self.font = [UIFont fontWithName: @"Courier" size: 14]; //monospace
