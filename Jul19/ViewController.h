@@ -13,6 +13,7 @@
 }
 - (id) initWithTitle: (NSString *) title
                image: (UIImage *) image
-               badge: (NSString *) badge;
+               badge: (NSString *) badge
+                view: (UIView *) view;
 
 @end

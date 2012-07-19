@@ -25,19 +25,20 @@
 //    return self;
 //}
 
-- (id) initWithTitle: (NSString *) title
-               image: (UIImage *) image
-               badge: (NSString *) badge {
-    
-	self = [super initWithNibName: nil bundle: nil];
-	if (self != nil) {
-		self.title = title;
-		self.tabBarItem.image = image;
-		self.tabBarItem.badgeValue = badge;
+
+- (id) initWithTitle: (NSString *) t 
+               image: (UIImage *) i
+               badge: (NSString *) b 
+                view: (UIView *) v {
+	if (self = [super initWithNibName: nil bundle: nil]) {
+		self.title = t;
+        self.tabBarItem.image = i;
+		self.tabBarItem.badgeValue = b;
+		self.view = v;
 	}
-	
 	return self;
 }
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];

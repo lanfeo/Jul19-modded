@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42CF29A615B7E547009E751D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CF29A515B7E547009E751D /* ViewController.m */; };
 		AB8F1C8215B7C7F900D9BF2F /* 163-glasses-1.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8F1C8115B7C7F900D9BF2F /* 163-glasses-1.png */; };
 		AB8F1C8515B7C8EE00D9BF2F /* 77-ekg.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8F1C8415B7C8EE00D9BF2F /* 77-ekg.png */; };
 		AB8F1C8815B7C9BF00D9BF2F /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8F1C8715B7C9BF00D9BF2F /* View.m */; };
@@ -18,11 +19,12 @@
 		ABAA707B15B7BAC900DF0E1F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABAA707915B7BAC900DF0E1F /* InfoPlist.strings */; };
 		ABAA707D15B7BAC900DF0E1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAA707C15B7BAC900DF0E1F /* main.m */; };
 		ABAA708115B7BAC900DF0E1F /* Jul19AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAA708015B7BAC900DF0E1F /* Jul19AppDelegate.m */; };
-		ABAA709115B7BD5000DF0E1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABAA708F15B7BD5000DF0E1F /* ViewController.m */; };
 		ABF0BE2815B7DD25000442AD /* forget2.png in Resources */ = {isa = PBXBuildFile; fileRef = ABF0BE2715B7DD25000442AD /* forget2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42CF29A415B7E547009E751D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		42CF29A515B7E547009E751D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AB8F1C8115B7C7F900D9BF2F /* 163-glasses-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "163-glasses-1.png"; sourceTree = "<group>"; };
 		AB8F1C8415B7C8EE00D9BF2F /* 77-ekg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "77-ekg.png"; sourceTree = "<group>"; };
 		AB8F1C8615B7C9BE00D9BF2F /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
@@ -40,8 +42,6 @@
 		ABAA707E15B7BAC900DF0E1F /* Jul19-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jul19-Prefix.pch"; sourceTree = "<group>"; };
 		ABAA707F15B7BAC900DF0E1F /* Jul19AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Jul19AppDelegate.h; sourceTree = "<group>"; };
 		ABAA708015B7BAC900DF0E1F /* Jul19AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Jul19AppDelegate.m; sourceTree = "<group>"; };
-		ABAA708F15B7BD5000DF0E1F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = "../../../../Downloads/lanfeo-Jul19-15f343d/Jul19/ViewController.m"; sourceTree = "<group>"; };
-		ABAA709015B7BD5000DF0E1F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = "../../../../Downloads/lanfeo-Jul19-15f343d/Jul19/ViewController.h"; sourceTree = "<group>"; };
 		ABF0BE2715B7DD25000442AD /* forget2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forget2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,8 +89,8 @@
 		ABAA707615B7BAC900DF0E1F /* Jul19 */ = {
 			isa = PBXGroup;
 			children = (
-				ABAA708F15B7BD5000DF0E1F /* ViewController.m */,
-				ABAA709015B7BD5000DF0E1F /* ViewController.h */,
+				42CF29A415B7E547009E751D /* ViewController.h */,
+				42CF29A515B7E547009E751D /* ViewController.m */,
 				AB8F1C8615B7C9BE00D9BF2F /* View.h */,
 				AB8F1C8F15B7D43400D9BF2F /* NoteView.h */,
 				AB8F1C9015B7D43400D9BF2F /* NoteView.m */,
@@ -185,9 +185,9 @@
 			files = (
 				ABAA707D15B7BAC900DF0E1F /* main.m in Sources */,
 				ABAA708115B7BAC900DF0E1F /* Jul19AppDelegate.m in Sources */,
-				ABAA709115B7BD5000DF0E1F /* ViewController.m in Sources */,
 				AB8F1C8815B7C9BF00D9BF2F /* View.m in Sources */,
 				AB8F1C9115B7D43400D9BF2F /* NoteView.m in Sources */,
+				42CF29A615B7E547009E751D /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
