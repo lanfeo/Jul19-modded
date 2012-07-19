@@ -8,7 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Jul19AppDelegate : UIResponder <UIApplicationDelegate>
+@class ViewController;
+
+@interface Jul19AppDelegate : UIResponder <UIApplicationDelegate> {
+    NSArray *a;
+	UITabBarController *controller;
+	UIWindow *window;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

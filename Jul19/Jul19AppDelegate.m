@@ -8,24 +8,30 @@
 
 #import "Jul19AppDelegate.h"
 #import "ViewController.h"
+#import "View.h"
+#import "NoteView.h"
 
 @implementation Jul19AppDelegate
 
-@synthesize window = _window;
+@synthesize window;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     
+    UIScreen *s = [UIScreen mainScreen];
+	CGRect f = [s applicationFrame];
+    
     // initialise tab controller
-	UITabBarController *tabBarController = [[UITabBarController alloc] init];
-    tabBarController.viewControllers = [NSArray arrayWithObjects:
+	// UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    a = [NSArray arrayWithObjects:
                                         
                                         [[ViewController alloc]
                                         initWithTitle:@"Build superpower"
                                          image: [UIImage imageNamed: @"163-glasses-1.png"]
                                          badge: nil
+                                         view: [[NoteView alloc] initWithFrame: f]
                                          ],
                                         
                                         
@@ -33,16 +39,24 @@
                                          initWithTitle:@"Monitor"
                                          image: [UIImage imageNamed: @"77-ekg.png"]
                                          badge: nil
+                                         view: [[View alloc] initWithFrame: f]
                                          ],
                                         nil];
     
-	tabBarController.selectedIndex = 0;	//0 (the leftmost one) is the default
-    self.window.rootViewController = tabBarController;
+//	tabBarController.selectedIndex = 0;	//0 (the leftmost one) is the default
+//    self.window.rootViewController = tabBarController;
     
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    return YES;
+//    self.window.backgroundColor = [UIColor whiteColor];
+ //   [self.window makeKeyAndVisible];
+ //   return YES;
+    controller = [[UITabBarController alloc] init];
+    controller.viewControllers = a;
+
+    window = [[UIWindow alloc] initWithFrame: s.bounds];
+    [window addSubview: controller.view];
+    [window makeKeyAndVisible];
 }
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     /*

@@ -14,4 +14,6 @@
     UIImageView *imageView;
 }
 
+- (id) initWithFrame: (CGRect) frame controller: (ViewController *) c;
+
 @end

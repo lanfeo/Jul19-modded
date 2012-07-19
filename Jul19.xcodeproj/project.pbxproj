@@ -11,6 +11,7 @@
 		AB8F1C8515B7C8EE00D9BF2F /* 77-ekg.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8F1C8415B7C8EE00D9BF2F /* 77-ekg.png */; };
 		AB8F1C8815B7C9BF00D9BF2F /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8F1C8715B7C9BF00D9BF2F /* View.m */; };
 		AB8F1C8E15B7CBE100D9BF2F /* forget.png in Resources */ = {isa = PBXBuildFile; fileRef = AB8F1C8D15B7CBE100D9BF2F /* forget.png */; };
+		AB8F1C9115B7D43400D9BF2F /* NoteView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB8F1C9015B7D43400D9BF2F /* NoteView.m */; };
 		ABAA707115B7BAC900DF0E1F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAA707015B7BAC900DF0E1F /* UIKit.framework */; };
 		ABAA707315B7BAC900DF0E1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAA707215B7BAC900DF0E1F /* Foundation.framework */; };
 		ABAA707515B7BAC900DF0E1F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABAA707415B7BAC900DF0E1F /* CoreGraphics.framework */; };
@@ -26,6 +27,8 @@
 		AB8F1C8615B7C9BE00D9BF2F /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
 		AB8F1C8715B7C9BF00D9BF2F /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
 		AB8F1C8D15B7CBE100D9BF2F /* forget.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = forget.png; sourceTree = "<group>"; };
+		AB8F1C8F15B7D43400D9BF2F /* NoteView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteView.h; sourceTree = "<group>"; };
+		AB8F1C9015B7D43400D9BF2F /* NoteView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteView.m; sourceTree = "<group>"; };
 		ABAA706C15B7BAC900DF0E1F /* Jul19.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jul19.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABAA707015B7BAC900DF0E1F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		ABAA707215B7BAC900DF0E1F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -87,6 +90,8 @@
 				ABAA708F15B7BD5000DF0E1F /* ViewController.m */,
 				ABAA709015B7BD5000DF0E1F /* ViewController.h */,
 				AB8F1C8615B7C9BE00D9BF2F /* View.h */,
+				AB8F1C8F15B7D43400D9BF2F /* NoteView.h */,
+				AB8F1C9015B7D43400D9BF2F /* NoteView.m */,
 				AB8F1C8715B7C9BF00D9BF2F /* View.m */,
 				ABAA707F15B7BAC900DF0E1F /* Jul19AppDelegate.h */,
 				ABAA708015B7BAC900DF0E1F /* Jul19AppDelegate.m */,
@@ -178,6 +183,7 @@
 				ABAA708115B7BAC900DF0E1F /* Jul19AppDelegate.m in Sources */,
 				ABAA709115B7BD5000DF0E1F /* ViewController.m in Sources */,
 				AB8F1C8815B7C9BF00D9BF2F /* View.m in Sources */,
+				AB8F1C9115B7D43400D9BF2F /* NoteView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
